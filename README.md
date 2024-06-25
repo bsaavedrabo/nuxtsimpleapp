@@ -1,1 +1,3 @@
 # nuxtsimpleapp
+
+hello
