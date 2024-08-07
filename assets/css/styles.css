@@ -1,72 +1,3 @@
-
-
-<template>
-
-  <!-- form-->
-<!-- 
-  <div>
-    <h3>ML Task</h3>
-    <UInput 
-      size="sm" 
-      color="white" 
-    />
-
-    <h3>Usage Context</h3>
-    <UInput 
-      size="sm" 
-      color="white" 
-      v-model="usageContext" 
-    />
-  </div> -->
-
-  <!-- UI-->
-  <h2 class="section-header">System Requirements</h2>
-    
-    <!-- Priority Legend  -->
-    <br/>
-
-<div class="horizontal-legend">
-<div class="legend-item">
-  <span class="circle top-priority"></span>
-  <p>Top Priority</p>
-</div>
-
-<div class="legend-item">
-  <span class="circle mild-priority"></span>
-  <p>Mild Priority</p>
-</div>
-<div class="legend-item">
-<span class="circle low-priority"></span>
-<p>Low Priority</p>
-</div>
-</div>
-<br/>
-
-<div>
-<chatgpt></chatgpt>
-
-</div>
-
-<div class="input-group">
-
-<Accordion title="Inference Latency">
-<template #content>
-    <Latency MLTask="Classification" usageContext="Real-time Application" />
-  </template>
-</Accordion>
-
-<Accordion title="Training Latency">
-<template #content>
-    <Training>MLTask="Classification" usageContext="Real-time Application" </Training> 
-  </template>
-</Accordion>
-
-</div>
-<br/>
-</template>
-
-
-<style>
 .section-header {
     color: #d8ac16;
 }
@@ -186,4 +117,4 @@ hr {
 }
 
 
- </style>
+ 
